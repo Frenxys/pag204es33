@@ -32,4 +32,20 @@ public class Mail {
     public void setTimestamp() {
         this.timestamp = Instant.now();
     }
+
+    public Instant getTimestamp() {
+        return timestamp;
+    }
+
+    public String getOggetto() {
+        return oggetto;
+    }
+
+    public String getTesto() {
+        return testo;
+    }
+
+    public String getMittente() {
+        return mittente;
+    }
 }
